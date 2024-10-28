@@ -1,0 +1,93 @@
+/* Style général pour la page */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Boîte de connexion */
+.facebook-login-box {
+    background-color: #ffffff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Logo Facebook */
+.facebook-logo {
+    width: 45%;
+    margin-bottom: 25px;
+}
+
+/* Titre */
+h2 {
+    color: #1877f2;
+    font-size: 26px;
+    margin: 15px 0 25px;
+    font-weight: 600;
+}
+
+/* Champs de formulaire */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 10px); /* Ajustement de la largeur pour rester dans la boîte */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #1c1e21;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #1877f2;
+    outline: none;
+}
+
+/* Bouton de connexion */
+.login-btn {
+    background-color: #1877f2;
+    color: #ffffff;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+/* Liens de la section "options" */
+.options {
+    margin-top: 25px;
+    color: #606770;
+    font-size: 15px;
+}
+
+.options a {
+    color: #1877f2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.separator {
+    color: #606770;
+    margin: 0 8px;
+    font-weight: normal;
+}
